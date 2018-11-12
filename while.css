@@ -1,0 +1,25 @@
+#bigContainer{
+  display:grid;
+  grid-template-columns: 33vw 33vw 33vw;
+  grid-template-rows: 200px 200px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#row1{
+  grid-column: span 3;
+  vertical-align: center;
+  text-align: center;
+}
+
+#button1{
+  background-color: #5619D2;
+}
+
+#button2{
+  background-color: #D25619;
+}
+
+#button3{
+  background-color: #56D219;
+}
